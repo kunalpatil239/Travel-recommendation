@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.buttons {
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  font-size: large;
+  background-color: #17e1f0;
+}
+
+.lowerArea {
+  text-align: left;
+}
+
+.lowerArea ul {
+  padding-left: 0rem;
+  padding-right: 5rem;
+}
+
+.visit {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: #17e1f0;
+}
+
+.name {
+  font-size: larger;
+}
