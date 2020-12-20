@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 var placesDb = {
@@ -11,8 +11,8 @@ var placesDb = {
     { name: "Aanand", rating: "4.5/5" }
   ],
   Kerala: [
-    { name: "Kozikode", rating: "5/5" },
-    { name: "Trivendrum", rating: "4.5/5" }
+    { name: "Kozhikode", rating: "5/5" },
+    { name: "Trivandrum", rating: "4.5/5" }
   ]
 };
 var listOfStates = Object.keys(placesDb);
@@ -24,7 +24,7 @@ export default function App() {
   }
   return (
     <div className="App">
-       <h1>
+      <h1>
         <span role="img" aria-label="beach">
           {" "}
           ⛱️
